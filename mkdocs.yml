@@ -1,0 +1,18 @@
+site_name: BlueLabs
+site_url: https://bluelabsai.com/
+repo_url: https://github.com/
+nav:
+  - Home: index.md
+  - workflows:
+    - main: tagify/main.md
+  - tagify:
+    - data: tagify/data.md
+    - evaluate: tagify/evaluate.md
+    - predict: tagify/predict.md
+    - train: tagify/train.md
+    - utils: tagify/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
